@@ -1,307 +1,154 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Dr. Luis F Garcia</title>
-
     <link rel="icon" href="https://biomag.s3.us-east-2.amazonaws.com/logo.ico" type="image/x-icon">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- <link rel="stylesheet" href="style.css"> -->
-
 </head>
-
 <body>
-
 <style>
-
     *{
-
     margin: 0;
-
     padding: 0;
-
     box-sizing: border-box;
-
 }
-
-
 
 body{
-
     position: relative;
-
     height: 100vh;
-
     width: 100vw;
-
     background-image: url('https://biomag.s3.us-east-2.amazonaws.com/drGarcia/background.svg');
 
-
-
 }
-
-
 
 .main_wrapper{
 
     /* position:absolute; */
 
-
-
     width: 100%;
-
     height: 100%;
 
     /* background: transparent; */
 
     /* background-image: url('https://biomag.s3.us-east-2.amazonaws.com/drGarcia/circle.svg'); */
-
-
-
 }
-
-
 
 .main_wrapper .row{
-
-
-
     height: 100%;
-
 }
-
-
-
 .main_wrapper .row .vCard_wrapper{
-
     gap: 0px;
-
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-
     border-radius: 10px;
-
     overflow: hidden;
-
     /* height: 667px; */
-
     height: 100%;
-
     width: 420px;
-
     /* padding-left: 30px;
-
     padding-right: 30px; */
-
     margin-top: 0;
-
     padding: 0;
-
     /* margin: 100px; */
-
     /* padding-bottom: 30px; */
-
 }
 
 .vCard_wrapper{
-
     background-color: white;
-
     /* padding: 0; */
-
 }
-
 .dr_garcia_image_wraper{
-
     /* object-fit:cover; */
-
     position: relative;
-
     border-radius: 0 0 0 250px;
-
     height: 320px;
-
     overflow: hidden;
-
     background-image: url('https://biomag.s3.us-east-2.amazonaws.com/drGarcia/Dr_Garcia.webp');
-
     background-size:cover;
-
     /* background-color: #5f3684 ; */
-
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
     padding: 0;
-
     margin: 0;
-
     width: 100%;
 
 
 
                             border-bottom: 10px solid #4293d1;
-
                             border-left: 1px solid #4293d1;
-
                             box-shadow: rgba(3, 50, 139, 0.35) 0px 5px 15px;
 
 }
-
 .dr_garcia_image_wraper .logo{
-
     position: absolute;
-
     top: -30px;
-
     height: 50%;
-
     z-index: 1;
-
-
-
 }
 
-
-
-
-
-
-
 .addToContactBtn{
-
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
    padding-left: 20px;
-
    padding-right: 20px;
-
    padding-top: 15px;
-
    padding-bottom: 15px;
-
    border-radius: 30px;
-
    margin-bottom: 150px;
-
    margin-top: 40px;
-
    background: linear-gradient(20deg, #503CAC,#2F86C4, #3E66B9);
-
     /* margin-top: 100px; */
-
     color: white;
-
     font-weight: 500;
-
     text-decoration: none;
-
     transition: 0.2s ease-in-out;
-
-
-
-
-
 }
 
 .addToContactBtn:hover{
-
     background-color: #2f79cb;
-
 }
 
-
-
 .addToContactBtn span{
-
-
-
     background-color: white;
-
     padding: 8px;
-
     height: 30px;
-
     width: 30px;
-
     border-radius: 50%;
-
     margin-right: 10px;
-
 }
 
 .addToContactBtn span i{
-
     color:#4293d1 ;
-
     font-size: 1.2rem;
-
 }
-
-
-
-
-
 
 
 .add_to_contact{
-
     margin-top: 50px;
-
     height: 70px;
-
 }
 
-
-
 .social_media_icons{
-
     margin-bottom: 10px;
-
 }
 
 .social_media_icons .row{
-
     height: fit-content;
-
-
-
     margin-top: 10px;
-
-
-
     /* padding-top: 100px; */
-
-
-
 }
 
 .social_media_icons .row div a{
-
     text-decoration: none;
-
     /* color: #000000; */
-
     font-size: 1.5rem;
-
     transition: 0.2s ease-in-out;
-
     /* padding: 10px; */
-
     padding-left: 10px;
-
     padding-right: 10px;
-
 }
 
 
@@ -312,522 +159,254 @@ body{
 
 } */
 
-
-
 .follow_up{
 
-
-
     align-items: center;
-
     justify-content: center;
-
-
-
 }
-
-
-
 
 
 .follow_up p{
-
     margin-bottom: 0;
-
     font-size: 1rem;
-
     font-weight: 900;
-
     color: #4293d1;
-
     text-align: center;
-
     padding-left: 10px;
-
     padding-right: 10px;
-
-
-
 }
-
-
 
 .follow_up::before{
-
     content: '';
-
     width: 0;
-
     height: 0;
-
     border-top: 5px solid transparent;
-
     border-right: 40px solid #4293d1;
-
     border-bottom: 5px solid transparent;
-
 }
-
-
 
 .follow_up::after{
-
     content: '';
-
     width: 0;
-
     height: 0;
-
     border-top: 5px solid transparent;
-
     border-left: 40px solid #4293d1;
-
     border-bottom: 5px solid transparent;
-
 }
 
-
-
 .description{
-
     /* padding: 15px; */
-
     padding: 0 10px 0 10px;
-
 }
 
 .description p{
-
-
-
     text-align: center;
-
     color: #525254;
-
     font-size: 0.8rem;
-
 }
 
 .description p:last-child{
-
     /* margin-top: -15px; */
-
     /* margin-top: 200px; */
-
     margin-top: -15px;
 
 }
 
-
-
 .vCard_wrapper h1{
-
     margin-top: 20px;
-
     font-weight: 900;
-
     font-size: 2rem;
-
 }
-
-
 
 .website a{
-
     /* background: linear-gradient(to right, #04E7E3 0%, #4F3FAD 100%);
-
     -webkit-background-clip: text;
-
     -webkit-text-fill-color: transparent; */
-
     color: #0959a9;
-
-
-
     /* background: -webkit-linear-gradient(to right, #04E7E3 0%, #4F3FAD 100%);
-
 background: -moz-linear-gradient(to right, #04E7E3 0%, #4F3FAD 100%);
-
 background: -o-linear-gradient(to right, #04E7E3 0%, #4F3FAD 100%);
-
 background: linear-gradient(to right, #04E7E3 0%, #4F3FAD 100%);
-
 -webkit-background-clip: text;
-
 background-clip: text;
-
 -webkit-text-fill-color: transparent;
-
 text-fill-color: transparent;
-
 -webkit-mask-image: linear-gradient(to right, #04E7E3 0%, #4F3FAD 100%); */
 
-
-
-
-
 }
-
 .website a:hover{
-
     color: #0959a9;
-
     /* background: linear-gradient(to right, #4F3FAD 0%, #04E7E3 100%);
-
     -webkit-background-clip: text;
-
     -webkit-text-fill-color: transparent; */
-
-
-
     /* background: -webkit-linear-gradient(to right, #4F3FAD 0%, #04E7E3 100%);
-
 background: -moz-linear-gradient(to right, #4F3FAD 0%, #04E7E3 100%);
-
 background: -o-linear-gradient(to right, #4F3FAD 0%, #04E7E3 100%);
-
 background: linear-gradient(to right, #4F3FAD 0%, #04E7E3 100%);
-
 -webkit-background-clip: text;
-
 background-clip: text;
-
 -webkit-text-fill-color: transparent;
-
 text-fill-color: transparent;
-
 -webkit-mask-image: linear-gradient(to right, #4F3FAD 0%, #04E7E3 100%); */
-
-
-
-
-
 }
-
-
 
 .facebook a{
-
     color: #2f7cf9;
-
 }
 
 .facebook a:hover{
-
     color: #1365bd;
-
 }
-
-
 
 .instagram a{
-
     /* color: #0966fe; */
-
     /* background: linear-gradient(to right, #4258e2 0%, #e8714c 100%);
-
     -webkit-background-clip: text;
-
     -webkit-text-fill-color: transparent; */
-
     color: #e8714c ;
-
-
-
-
-
 }
-
 .instagram a:hover{
-
     /* background: linear-gradient(to right, #e8714c 0%, #4258e2 100%);
-
     -webkit-background-clip: text;
-
     -webkit-text-fill-color: transparent; */
-
     color: #c04a26 ;
-
 }
-
-
-
 .twitter a{
-
     color: #0f1419;
-
 }
-
 .twitter a:hover{
-
     color: #0a0d10;
-
 }
-
-
 
 .linkedin a{
-
     color: #0b66c2;
-
 }
 
 .linkedin a:hover{
-
     color: #0959a9;
-
 }
 
-
-
 .youtube a{
-
     color: #e54803;
-
 }
 
 .youtube a:hover{
-
     color: #bf3c04;
-
 }
 
-
-
 .tiktok a{
-
     color: #000000;
-
 }
 
 .tiktok a:hover{
-
     color: #000000;
-
 }
-
-
-
 .pinterest a{
-
     color: #e54924;
-
 }
-
 .tikpinteresttok a:hover{
-
     color: #d43f19;
-
 }
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 768px){
-
     .main_wrapper .row .vCard_wrapper{
-
         height: 70%;
-
     }
-
 }
-
-
-
 @media screen and (min-width: 1000px){
-
     .main_wrapper .row .vCard_wrapper{
-
         height: 700px;
-
     }
-
     .addToContactBtn{
-
         margin-bottom: 120px;
-
         margin-top: 0;
-
     }
-
     .dr_garcia_image_wraper{
-
         min-height: 240px;
-
     }
-
 }
-
 @media screen and (min-width: 1024px) and (max-width: 1026px){
-
     .main_wrapper .row .vCard_wrapper{
-
         height: 600px;
-
     }
-
 }
-
-
 
 @media screen and (max-width: 281px){
-
             .vCard_wrapper h1{
-
                 font-size: 1.8rem;
-
             }
 
             .social_media_icons .row .col a{
-
                 font-size: 1.1rem;
-
             }
-
-
 
             .add_to_contact a{
-
                 padding: 10px;
-
                 font-size: 0.8rem;
-
             }
-
             .add_to_contact a span{
-
                 height: 5px;
-
                 width: 5px;
-
                 /* background-color: transparent !important; */
-
                 /* border: 2px solid red; */
-
                 padding: 5px;
-
             }
-
             .add_to_contact a span i{
-
                 font-size: 0.7rem;
-
                 padding: 0;
-
             }
-
         }
-
 </style>
 
-
-
     <div class="container-fluid main_wrapper">
-
         <div class="row d-flex justify-content-center align-items-center">
-
             <div class="col-md-6 vCard_wrapper d-flex justify-content-start align-items-center flex-column">
-
                 <div class="dr_garcia_image_wraper d-flex">
-
                     <img src="https://biomag.s3.us-east-2.amazonaws.com/drGarcia/logo.svg" class="img-fluid logo" alt="logo">
 
                     <!-- <img src="Dr_Garcia1.webp" class="img-fluid dr_garcia" alt="dr_garcia"> -->
-
                 </div>
-
                 <h1>Dr. Luis F Garcia</h1>
-
                 <div class="description d-flex justify-content-center align-items-center flex-column">
-
                     <p>Dr. Garcia, with 15+ years of clinical experience, envisions biomagnetism empowering people through out the world.</p>
-
                 <p>His personal growth, research, and clinical work establish him as a key biomagnetism contributor.</p>
-
                 </div>
-
-
-
                 <div class="social_media_wraper d-flex align-items-center justify-content-center flex-column">
-
                     <div class="follow_up d-flex ">
-
                         <p>Follow us</p>
-
                     </div>
 
                     <div class="social_media_icons">
-
                       <div class="row d-flex justify-content-center align-items-center">
-
                         <div class="col website"><a href="https://drgarciabiomagnetism.com/" target="_blank"><i class="fa-solid fa-globe"></i></a></div>
-
                         <div class="col facebook"><a href="https://www.facebook.com/DrGarciaBiomagnetism" target ="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
-
                         <div class="col instagram"><a href="https://www.instagram.com/drgarciabiomagnetism/" target ="_blank"><i class="fa-brands fa-instagram"></i></a></div>
-
                         <div class="col twitter"><a href="https://twitter.com/thebiomagnetism" target ="_blank"><i class="fa-brands fa-x-twitter"></i></a></div>
-
                       </div>
 
                       <div class="row d-flex justify-content-center align-items-center">
-
                         <div class="col linkedin"><a href="https://www.linkedin.com/company/dr-garcia-biomagnetism" target ="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
-
-                        <div class="col youtube"><a href="https://www.youtube.com/@luisfergarciasaa" target ="_blank"><i class="fa-brands fa-youtube"></i></a></div>
-
-
-
+                        <div class="col youtube"><a href="https://www.youtube.com/@DrGarciaBiomagnetism" target ="_blank"><i class="fa-brands fa-youtube"></i></a></div>
                         <div class="col tiktok"><a href="https://www.tiktok.com/@drgarciabiomagnetism" target ="_blank"><i class="fa-brands fa-tiktok"></i></a></div>
-
                         <div class="col pinterest"><a href="https://www.pinterest.com/DrGarciaBiomagnetism/" target ="_blank"><i class="fa-brands fa-pinterest"></i></a></div>
-
                       </div>
-
-
-
                     </div>
 
-
-
                 </div>
-
-
 
                 <div class="add_to_contact d-flex justify-content-center align-items-center">
-
                     <a href="#" id="saveContactBtn" class="addToContactBtn"><span><i class="fa-solid fa-user"></i></span>Save to contacts</a>
-
                 </div>
-
-
-
             </div>
-
         </div>
-
     </div>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-
-
     <!-- <script>
-
         let social_icons = document.querySelectorAll('.social_media_icons .row .col a');
-
         social_icons.forEach((icon) =>{
-
             icon.style.cursor = 'default';
-
             icon.addEventListener('click',(event)=>{
 
                 event.preventDefault()
@@ -845,8 +424,7 @@ text-fill-color: transparent;
 
 <script>
 // The contact information is embedded in this HTML; no separate .vcf upload is needed.
-const contactVCF = "BEGIN:VCARD\nVERSION:3.0\nN:Garcia;Luis;F.;Dr.;\nFN:Dr. Luis F Garcia\nORG:Dr. Garcia Biomagnetism\nEMAIL;TYPE=INTERNET,WORK:info@drgarciabiomagnetism.com\nTEL;TYPE=WORK,VOICE:+17329838616\nADR;TYPE=WORK:;;461 Park Ave. South\\, 12th Floor;New York;NY;10016;USA\nURL;TYPE=WORK:https://drgarciabiomagnetism.com/\nitem1.URL:https://www.facebook.com/DrGarciaBiomagnetism\nitem1.X-ABLabel:Facebook\nitem2.URL:https://www.instagram.com/drgarciabiomagnetism/\nitem2.X-ABLabel:Instagram\nitem3.URL:https://twitter.com/thebiomagnetism\nitem3.X-ABLabel:Twitter\nitem4.URL:https://www.youtube.com/@luisfergarciasaa\nitem4.X-ABLabel:YouTube\nitem5.URL:https://www.linkedin.com/company/dr-garcia-biomagnetism\nitem5.X-ABLabel:LinkedIn\nitem6.URL:https://www.tiktok.com/@drgarciabiomagnetism\nitem6.X-ABLabel:TikTok\nitem7.URL:https://www.pinterest.com/DrGarciaBiomagnetism/\nitem7.X-ABLabel:Pinterest\nEND:VCARD\n";
-
+const contactVCF = "BEGIN:VCARD\nVERSION:3.0\nN:Garcia;Luis;F.;Dr.;\nFN:Dr. Luis F Garcia\nORG:Dr. Garcia Biomagnetism\nEMAIL;TYPE=INTERNET,WORK:info@drgarciabiomagnetism.com\nTEL;TYPE=WORK,VOICE:+17329838616\nADR;TYPE=WORK:;;461 Park Ave. South\\, 12th Floor;New York;NY;10016;USA\nURL;TYPE=WORK:https://drgarciabiomagnetism.com/\nitem1.URL:https://www.facebook.com/DrGarciaBiomagnetism\nitem1.X-ABLabel:Facebook\nitem2.URL:https://www.instagram.com/drgarciabiomagnetism/\nitem2.X-ABLabel:Instagram\nitem3.URL:https://twitter.com/thebiomagnetism\nitem3.X-ABLabel:Twitter\nitem4.URL:https://www.youtube.com/@DrGarciaBiomagnetism\nitem4.X-ABLabel:YouTube\nitem5.URL:https://www.linkedin.com/company/dr-garcia-biomagnetism\nitem5.X-ABLabel:LinkedIn\nitem6.URL:https://www.tiktok.com/@drgarciabiomagnetism\nitem6.X-ABLabel:TikTok\nitem7.URL:https://www.pinterest.com/DrGarciaBiomagnetism/\nitem7.X-ABLabel:Pinterest\nEND:VCARD\n";
 document.getElementById('saveContactBtn').addEventListener('click', function (event) {
   event.preventDefault();
   // CRLF line endings are required by the vCard format.
